@@ -1,7 +1,12 @@
 {
   "name": "angular-boilerplate",
+  "description" : "angular 5 basic boilerplate application using angular cli and webpack",
   "version": "1.0.0",
   "license": "MIT",
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/Buttonsz/angular-boilerplate.git"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -13,17 +18,17 @@
   "private": false,
   "dependencies": {
     "@angular/animations": "^5.2.4",
-      "@angular/common": "^5.2.4",
-      "@angular/compiler": "^5.2.4",
-      "@angular/core": "^5.2.4",
-      "@angular/forms": "^5.2.4",
-      "@angular/http": "^5.2.4",
-      "@angular/platform-browser": "^5.2.4",
-      "@angular/platform-browser-dynamic": "^5.2.4",
-      "@angular/router": "^5.2.4",
-      "core-js": "^2.5.3",
-      "rxjs": "^5.5.6",
-      "zone.js": "^0.8.20"
+    "@angular/common": "^5.2.4",
+    "@angular/compiler": "^5.2.4",
+    "@angular/core": "^5.2.4",
+    "@angular/forms": "^5.2.4",
+    "@angular/http": "^5.2.4",
+    "@angular/platform-browser": "^5.2.4",
+    "@angular/platform-browser-dynamic": "^5.2.4",
+    "@angular/router": "^5.2.4",
+    "core-js": "^2.5.3",
+    "rxjs": "^5.5.6",
+    "zone.js": "^0.8.20"
   },
   "devDependencies": {
     "@angular/cli": "^1.6.8",
