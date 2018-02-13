@@ -1,21 +1,22 @@
 {
   "name": "angular-boilerplate",
-  "description" : "angular 5 basic boilerplate application using angular cli and webpack",
+  "description": "angular 5 basic boilerplate application using angular cli and webpack",
   "version": "1.0.0",
   "license": "MIT",
-  "repository" : { 
-    "type" : "git",
-    "url" : "https://github.com/Buttonsz/angular-boilerplate.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Buttonsz/angular-boilerplate.git"
   },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port 8080",
+    "hmr": "ng serve --hmr -e=hmr --port 8080",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "private": false,
+  "private": true,
   "dependencies": {
     "@angular/animations": "^5.2.4",
     "@angular/common": "^5.2.4",
@@ -33,7 +34,7 @@
   "devDependencies": {
     "@angular/cli": "^1.6.8",
     "@angular/compiler-cli": "^5.2.4",
-    "@angular/language-service": "^5.2.4",
+    "@angularclass/hmr": "^2.1.3",
     "@types/jasmine": "~2.8.6",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~9.4.5",
